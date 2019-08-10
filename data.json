@@ -1,0 +1,77 @@
+{
+    "projects": [
+            {
+                "id": 0 ,
+                "project_name": "A Random Quote Generator",
+                "description": "An app that displays random famous quotes each time a button is clicked",
+                "technologies": ["HTML" , "CSS" , "JAVASCRIPT"],
+                "live_link": "https://sniro84.github.io/FSJS-Techdegree-Project1-A-Random-Quote-Generator/",
+                "github_link": "https://github.com/sniro84/FSJS-Techdegree-Project1-A-Random-Quote-Generator",
+                "image_urls": [
+                    "../images/project1/p1_landing.jpg",
+                    "../images/project1/p1_state1.jpg",
+                    "../images/project1/p1_state2.jpg"
+                ]
+            } ,
+
+            {
+                "id": 1 ,
+                "project_name": "List Pagination and Filtering",
+                "description": "A long list of students has been divided into several pages in order to improve user experience. In addition, a search feature has been dynamically added to the page using javascript.",
+                "technologies": ["HTML" , "CSS" , "JAVASCRIPT"],
+                "live_link": "https://sniro84.github.io/FSJS-Techdegree-Project2-List-Pagination-and-Filtering/",
+                "github_link": "https://github.com/sniro84/FSJS-Techdegree-Project2-List-Pagination-and-Filtering",
+                "image_urls": [
+                    "../images/project2/p2_landing.jpg",
+                    "../images/project2/p2_state1.jpg",
+                    "../images/project2/p2_state2.jpg"
+                ]
+            } ,
+
+            {
+                "id": 2 ,
+                "project_name": "Interactive Form",
+                "description": "Making a form engaging, interactive and easy to use with Javascript.",
+                "technologies": ["HTML" , "CSS" , "JAVASCRIPT", "JQUERY"],
+                "live_link": "https://sniro84.github.io/FSJS-Techdegree-Project3-Interactive-Form/",
+                "github_link": "https://github.com/sniro84/FSJS-Techdegree-Project3-Interactive-Form",
+                "image_urls": [
+                    "../images/project3/p3_landing.jpg",
+                    "../images/project3/p3_state1.jpg",
+                    "../images/project3/p3_state2.jpg",
+                    "../images/project3/p3_state3.jpg"
+                ]
+            } ,
+
+            {
+                "id": 3 ,
+                "project_name": "OOP Game Show App",
+                "description": "A browser-based word guessing game: 'Phrase Hunter'. The player has to guess a hidden phrase by clicking letters on an onscreen keyboard.",
+                "technologies": ["HTML" , "CSS" , "JAVASCRIPT"],
+                "live_link": "https://sniro84.github.io/FSJS-Techdegree-Project4-OOP-Game-Show-App/",
+                "github_link": "https://github.com/sniro84/FSJS-Techdegree-Project4-OOP-Game-Show-App",
+                "image_urls": [
+                "../images/project4/p4_landing.jpg",
+                "../images/project4/p4_state1.jpg",
+                "../images/project4/p4_state2.jpg",
+                "../images/project4/p4_state3.jpg"
+                ]
+            } ,
+
+            {
+                "id": 4 ,
+                "project_name": "Public API Requests",
+                "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.",
+                "technologies": ["HTML" , "CSS" , "JAVASCRIPT"],
+                "live_link": "https://sniro84.github.io/FSJS-Techdegree-Project5-Public-API-Requests/",
+                "github_link": "https://github.com/sniro84/FSJS-Techdegree-Project5-Public-API-Requests",
+                "image_urls": [
+                    "../images/project5/p5_landing.jpg",
+                    "../images/project5/p5_state1.jpg",
+                    "../images/project5/p5_state2.jpg",
+                    ]
+            } 
+            
+        ]
+    }
+}
