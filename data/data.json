@@ -68,10 +68,8 @@
                 "image_urls": [
                     "../images/project5/p5_landing.jpg",
                     "../images/project5/p5_state1.jpg",
-                    "../images/project5/p5_state2.jpg",
+                    "../images/project5/p5_state2.jpg"
                     ]
-            } 
-            
-        ]
-    }
+            }      
+    ]
 }
