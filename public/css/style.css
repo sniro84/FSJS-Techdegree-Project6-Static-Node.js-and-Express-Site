@@ -18,8 +18,11 @@ h1,h2,h3,h4,h5,p{
   }
 
   p{
-    font-size: 15px;
-    color: #666;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(194, 111, 3);
+    line-height: 2;
   }
 
 .round{
@@ -27,14 +30,19 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(19, 92, 0);
 }
 
 .button{
+  font-weight: bold;
   background-color: #333;
 }
 
 .button:hover{
+  font-weight: bold;
   background-color: #111;
 }
 
@@ -58,21 +66,31 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background-color:rgb(13, 11, 43);
+  background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   color: #fff;
   box-shadow: none !important;
+  font-weight: bold;
 }
 
   .portfolio-me p{
-    font-size: 14px;
-    color: #999;
+    /* font-weight: bold; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: rgb(153, 153, 153);
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: #555;
-    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    font-size: 17px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -86,29 +104,38 @@ a:hover{
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
+  background: linear-gradient(45deg,rgb(228, 228, 228),#b6c4e7);
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   font-weight: 600;
-   font-size: 13px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   font-size: 17px;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
  }
 
 .portfolio-intro{
+  background:
+linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+background-size: 100px 100px;
   margin: 0;
   padding: 40px 50px 30px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
 }
 
 .portfolio-index{
   margin: 0;
+  background: linear-gradient(45deg,rgb(228, 228, 228),#9ce6eb);
   padding: 10px 50px;
 }
 
@@ -117,7 +144,7 @@ a:hover{
   }
 
   .portfolio-index a{
-    color: #222;
+    color: rgb(15, 15, 15);
   }
 
   .portfolio-index .cell{
@@ -141,8 +168,9 @@ a:hover{
 }
 
 .portfolio-project li{
-  font-size: 13px;
-  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(184, 3, 3);
 }
 
 .portfolio-bio{
