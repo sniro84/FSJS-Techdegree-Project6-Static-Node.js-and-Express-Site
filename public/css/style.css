@@ -18,10 +18,10 @@ h1,h2,h3,h4,h5,p{
   }
 
   p{
-    font-family: Arial, sans-serif;
-    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
     font-weight: bold;
-    color: rgb(122, 57, 4);
+    color: rgb(194, 111, 3);
     line-height: 2;
   }
 
@@ -38,13 +38,12 @@ h1,h2,h3,h4,h5,p{
 
 .button{
   font-weight: bold;
-  background-color: rgb(66, 83, 67);
-  border-radius: 50%;
+  background-color: #333;
 }
 
 .button:hover{
   font-weight: bold;
-  background-color: rgb(38, 2, 54);
+  background-color: #111;
 }
 
 a{

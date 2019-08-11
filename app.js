@@ -32,7 +32,7 @@ app.use('/projects/:id' , (req,res,next) => {
         });
     else
     {
-        const err = new Error('Page Not Found.');
+        const err = new Error('Not Found');
         err.status = 404;
         next(err);
     }
@@ -40,7 +40,7 @@ app.use('/projects/:id' , (req,res,next) => {
 });
 
 app.use( (req,res,next) => {
-    const err = new Error('Page Not Found.');
+    const err = new Error('Not Found');
     err.status = 404;
     next(err);
 });
