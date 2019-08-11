@@ -3,7 +3,7 @@
             {
                 "id": 0 ,
                 "project_name": "A Random Quote Generator",
-                "description": "An app that displays random famous quotes each time a button is clicked",
+                "description": "An app that displays random famous quotes each time a button is clicked.",
                 "technologies": ["HTML" , "CSS" , "JAVASCRIPT"],
                 "live_link": "https://sniro84.github.io/FSJS-Techdegree-Project1-A-Random-Quote-Generator/",
                 "github_link": "https://github.com/sniro84/FSJS-Techdegree-Project1-A-Random-Quote-Generator",
@@ -18,7 +18,7 @@
             {
                 "id": 1 ,
                 "project_name": "List Pagination and Filtering",
-                "description": "A long list of students has been divided into several pages in order to improve user experience. In addition, a search feature has been dynamically added to the page using javascript.",
+                "description": "A long list of students has been divided into several pages in order to improve user experience. In addition, a search feature has been dynamically added to the page using JavaScript.",
                 "technologies": ["HTML" , "CSS" , "JAVASCRIPT"],
                 "live_link": "https://sniro84.github.io/FSJS-Techdegree-Project2-List-Pagination-and-Filtering/",
                 "github_link": "https://github.com/sniro84/FSJS-Techdegree-Project2-List-Pagination-and-Filtering",
@@ -33,7 +33,7 @@
             {
                 "id": 2 ,
                 "project_name": "Interactive Form",
-                "description": "Making a form engaging, interactive and easy to use with Javascript.",
+                "description": "Making a form engaging, interactive and easy to use with JavaScript.",
                 "technologies": ["HTML" , "CSS" , "JAVASCRIPT", "JQUERY"],
                 "live_link": "https://sniro84.github.io/FSJS-Techdegree-Project3-Interactive-Form/",
                 "github_link": "https://github.com/sniro84/FSJS-Techdegree-Project3-Interactive-Form",
