@@ -27,6 +27,7 @@ app.use('/projects/:id' , (req,res,next) => {
             technologies: projects[req.params.id].technologies ,
             live_link: projects[req.params.id].live_link ,
             github_link: projects[req.params.id].github_link ,
+            image_landing_url: projects[req.params.id].image_landing_url ,
             image_urls: projects[req.params.id].image_urls
         });
     else
