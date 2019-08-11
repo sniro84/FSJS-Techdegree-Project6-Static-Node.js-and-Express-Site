@@ -38,12 +38,13 @@ h1,h2,h3,h4,h5,p{
 
 .button{
   font-weight: bold;
+  border-radius: 50%;
   background-color: #333;
 }
 
 .button:hover{
   font-weight: bold;
-  background-color: #111;
+  background-color: rgb(42, 3, 105);
 }
 
 a{
