@@ -63,7 +63,8 @@ app.use( (req,res,next) => {
 app.use( (err,req,res,next) => {
     res.locals.error = err;
     res.status(err.status);
-    res.render('error');  
+    console.log(err);  
+    res.render('error');
 });
 
 // listen for connection on a port
