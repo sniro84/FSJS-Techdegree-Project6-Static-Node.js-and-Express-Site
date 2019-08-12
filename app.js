@@ -46,7 +46,7 @@ app.use('/projects/:id' , (req,res,next) => {
         });
     else // invalid project id
     {
-        const err = new Error('Not Found');
+        const err = new Error('Requested page not found');
         err.status = 404;
         next(err);  // call to middleware error handling function
     }
@@ -54,7 +54,7 @@ app.use('/projects/:id' , (req,res,next) => {
 
 // invalid route
 app.use( (req,res,next) => {
-    const err = new Error('Not Found');
+    const err = new Error('Requested page not found');
     err.status = 404;
     next(err);  // call to middleware error handling function
 });
