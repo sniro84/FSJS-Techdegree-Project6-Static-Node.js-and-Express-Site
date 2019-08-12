@@ -63,7 +63,7 @@ app.use( (req,res,next) => {
 app.use( (err,req,res,next) => {
     res.locals.error = err;
     res.status(err.status);
-    console.log(err);  
+    console.log("error 404: Requested page not found.");  
     res.render('error');
 });
 
