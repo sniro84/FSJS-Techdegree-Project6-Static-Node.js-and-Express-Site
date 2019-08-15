@@ -89,7 +89,7 @@ a:hover{
   .portfolio-me a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    color: rgb(85, 85, 85);
+    color: rgb(137, 138, 129);
     font-size: 17px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -97,7 +97,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(152, 243, 33);
   }
 
 .portfolio-breadcrumb{
@@ -176,4 +176,8 @@ background-size: 100px 100px;
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+#my-info > div > div.cell.auto > p{
+  color: yellow;
 }
