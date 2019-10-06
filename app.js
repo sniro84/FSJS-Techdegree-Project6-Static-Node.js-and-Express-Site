@@ -6,7 +6,7 @@ Date: 12/08/2019
 ******************************************/
 
 // port number
-const PORT = process.env || 3000;
+const PORT = process.env.PORT || 3000;
 
 // start express
 const express = require('express');
