@@ -5,6 +5,9 @@ Name: Snir Holland
 Date: 12/08/2019
 ******************************************/
 
+// port number
+const PORT = process.env || 3000;
+
 // start express
 const express = require('express');
 const app = express();
@@ -68,6 +71,6 @@ app.use( (err,req,res,next) => {
 });
 
 // listen for connection on a port
-app.listen(3000 , () => {
-    console.log("Listening to port 3000...");
+app.listen(PORT , () => {
+    console.log("Listening to PORT...");
 });
