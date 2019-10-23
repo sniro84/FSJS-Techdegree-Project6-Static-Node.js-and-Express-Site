@@ -59,6 +59,7 @@ a:hover{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
+  margin-top: 15px;
   border: solid 4px #fefefe;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
@@ -68,7 +69,6 @@ a:hover{
 .portfolio-me{
   padding: 20px;
   background-color:rgb(13, 11, 43);
-  /* background-image: linear-gradient(purple,firebrick); */
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   color: #fff;
@@ -101,8 +101,10 @@ a:hover{
 
 .portfolio-breadcrumb{
   margin: 0;
-  padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+
+  
 }
 
  .portfolio-breadcrumb a{
@@ -116,14 +118,13 @@ a:hover{
 
 .portfolio-intro{
   background-image: radial-gradient(circle at top right, #ffa949,rgb(131, 226, 112)); 
-  margin: 0;
-  padding: 20px 50px 5px;
+  padding: 20px 50px;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
 }
 
 .portfolio-intro p{
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .portfolio-index{
@@ -133,7 +134,7 @@ a:hover{
 }
 
   .portfolio-index .thumbnail{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     border-radius: 10%;
     border-color: rgb(68, 0, 65);
   }
@@ -192,6 +193,3 @@ body > div.off-canvas-content.has-reveal-left > article > div > div.cell.small-6
   padding-right: 5%;
 }
 
-body > div.off-canvas-content.has-reveal-left > article > div {
-  padding-bottom: 5%;
-}
