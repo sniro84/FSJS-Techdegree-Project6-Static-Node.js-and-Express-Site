@@ -117,19 +117,19 @@ a:hover{
 .portfolio-intro{
   background-image: radial-gradient(circle at top right, #ffa949,rgb(131, 226, 112)); 
   margin: 0;
-  padding: 40px 50px 30px;
+  padding: 20px 50px 5px;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
 }
 
 .portfolio-intro p{
-  padding-bottom: 40px;
+  padding-bottom: 5px;
 }
 
 .portfolio-index{
   margin: 0;
   background: linear-gradient(45deg,rgb(228, 228, 228),#9ce6eb);
-  padding: 30px 50px;
+  padding: 20px 50px 10%;
 }
 
   .portfolio-index .thumbnail{
