@@ -101,10 +101,7 @@ a:hover{
 
 .portfolio-breadcrumb{
   margin: 0;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
-
-  
+  /* padding-top: 0.5rem; */
 }
 
  .portfolio-breadcrumb a{
@@ -118,7 +115,7 @@ a:hover{
 
 .portfolio-intro{
   background-image: radial-gradient(circle at top right, #ffa949,rgb(131, 226, 112)); 
-  padding: 20px 50px;
+  padding: 85px 50px;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
 }
